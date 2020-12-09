@@ -35,13 +35,4 @@ def vending_machine(products, money, product_number):
                 return "Not enough money for this product"
     return "Enter a valid product number"
 
-print(vending_machine(products, 500, 8))#, { 'product': 'Potato chips', 'change': [ 200, 50, 20, 10 ] })
-print(vending_machine(products, 500, 1))#, { 'product': 'Orange juice', 'change': [ 200, 200 ] })
-print(vending_machine(products, 200, 7))#, { 'product': 'Crackers', 'change': [ 50, 20, 10 ] })
-print(vending_machine(products, 100, 9))#, { 'product': 'Small snack', 'change': [ 20 ] })
-print(vending_machine(products, 1000, 6))# { 'product': 'Condoms', 'change': [ 500 ] })
-print(vending_machine(products, 250, 4))#, { 'product': 'Cookies', 'change': [] })
-print(vending_machine(products, 500, 0))# 'Enter a valid product number')
-print(vending_machine(products, 90, 1))# 'Not enough money for this product')
-print(vending_machine(products, 0, 0)),# 'Enter a valid product number')
 
