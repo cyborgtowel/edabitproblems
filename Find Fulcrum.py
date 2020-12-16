@@ -10,11 +10,3 @@ def find_fulcrum(lst):
 
 
     
-
-print(find_fulcrum([1, 2, 4, 9, 10, -10, -9, 3])) #➞ 4
-
-print(find_fulcrum([9, 1, 9])) #➞ 1
-
-print(find_fulcrum([7, -1, 0, -1, 1, 1, 2, 3])) #➞ 0
-
-print(find_fulcrum([8, 8, 8, 8])) #➞ -1	
